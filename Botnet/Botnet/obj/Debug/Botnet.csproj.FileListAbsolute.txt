@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\cybersec\Botnet\Botnet\bin\Debug\Botnet.exe.config
+C:\Users\User\Desktop\cybersec\Botnet\Botnet\bin\Debug\Botnet.exe
+C:\Users\User\Desktop\cybersec\Botnet\Botnet\bin\Debug\Botnet.pdb
+C:\Users\User\Desktop\cybersec\Botnet\Botnet\obj\Debug\Botnet.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\cybersec\Botnet\Botnet\obj\Debug\Botnet.exe
+C:\Users\User\Desktop\cybersec\Botnet\Botnet\obj\Debug\Botnet.pdb
