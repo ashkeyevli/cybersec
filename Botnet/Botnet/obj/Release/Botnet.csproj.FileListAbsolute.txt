@@ -4,3 +4,14 @@ C:\Users\User\Desktop\cybersec\Botnet\Botnet\bin\Release\Botnet.pdb
 C:\Users\User\Desktop\cybersec\Botnet\Botnet\obj\Release\Botnet.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\cybersec\Botnet\Botnet\obj\Release\Botnet.exe
 C:\Users\User\Desktop\cybersec\Botnet\Botnet\obj\Release\Botnet.pdb
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\bin\Release\Botnet.exe.config
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\bin\Release\Botnet.exe.manifest
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\bin\Release\Botnet.application
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\bin\Release\Botnet.exe
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\bin\Release\Botnet.pdb
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.TrustInfo.xml
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.exe.manifest
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.application
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.exe
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.pdb

