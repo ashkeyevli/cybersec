@@ -15,3 +15,4 @@ C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.exe.man
 C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.application
 C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.exe
 C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.pdb
+C:\Users\User\Desktop\cybersec\cybersec\Botnet\Botnet\obj\Release\Botnet.csprojAssemblyReference.cache

